@@ -1,0 +1,17 @@
+name: Deploy Project
+on: 
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:        
+  deploy:
+    runs-on: self-hosted
+    environment: 
+      name: prod
+      url: ${{vars.address}}
+    steps:
+      - name: Get code
+        uses: actions/checkout@v3
+      - name : Deployed at ${{vars.address}}
+        run: echo "Deployed Successfully"
