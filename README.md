@@ -17,7 +17,7 @@ O site contém:
 - Skills
 - Contato
 
-* [Link para o site](http://germanogualberto.github.io)
+* [Link para o site](http://germanogualberto.com)
 
 ## 🚀 Tecnologias
 
